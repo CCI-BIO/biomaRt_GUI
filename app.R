@@ -410,6 +410,7 @@ server <- function(input, output, session) {
           } else {
             df <- cbind(df, annotation[match(df[,columnValues], annotation[,filters]),])
           }
+          ## TO DO - Speed up mygene summary code
           if(input$includeMyGeneSummary){
             if(!("entrezgene_id" %in% colnames(df))){
               html(id = "biomartMessage", html = "Getting entrez IDs!", add = FALSE)
