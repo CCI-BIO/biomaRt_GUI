@@ -2,7 +2,7 @@
 ##
 ## Created by Nisitha Jayatilleke
 ## Date: 30/05/2019
-## Last updated: 30/05/2019
+## Last updated: 03/08/2020
 
 # Check for package installations
 Bioconductor_list <- c("biomaRt", "mygene")
